@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MySecondApp());
+  runApp(const ContactCard());
 }
 
-class MySecondApp extends StatelessWidget {
-  const MySecondApp({super.key});
+class ContactCard extends StatelessWidget {
+  const ContactCard({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -117,3 +117,4 @@ class MySecondApp extends StatelessWidget {
     );
   }
 }
+
