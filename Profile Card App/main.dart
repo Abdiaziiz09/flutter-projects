@@ -19,7 +19,7 @@ class ProfileCardApp extends StatelessWidget {
               Container(
                 color: Colors.teal,
                 width: double.infinity,
-                height: 300.0,
+                height: 200.0,
                 child: Align(
                   alignment: Alignment.bottomCenter,
                   child: CircleAvatar(
@@ -28,7 +28,7 @@ class ProfileCardApp extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 15.0),
+              SizedBox(height: 20.0),
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Center(
@@ -48,9 +48,9 @@ class ProfileCardApp extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 20.0),
+              SizedBox(height: 25.0),
               Divider(height: 10.0, thickness: 2.0),
-              SizedBox(height: 8.0),
+              SizedBox(height: 15.0),
               Center(
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.center,
@@ -66,7 +66,8 @@ class ProfileCardApp extends StatelessWidget {
                   ],
                 ),
               ),
-              Divider(height: 5.0, thickness: 1.0),
+              SizedBox(height: 12.0),
+              Divider(height: 15.0, thickness: 1.0),
               GridView.count(
                 crossAxisCount: 3,
                 scrollDirection: Axis.vertical,
