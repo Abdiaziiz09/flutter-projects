@@ -1,11 +1,11 @@
-// Creater Name: Abdiaziiz Abdirahman Hassan
+// Created by: Abdiaziiz Abdirahman Hassan
 
 import 'package:flutter/material.dart';
 
-void main() => runApp(const MyApp());
+void main() => runApp(const FormDesign());
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class FormDesign extends StatelessWidget {
+  const FormDesign({super.key});
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
@@ -37,7 +37,7 @@ class _FormPageState extends State<FormPage> {
                 child: Column(
                   children: [
                     Text(
-                      "Form Validation",
+                      "Form",
                       style: TextStyle(
                         fontSize: 30,
                         fontWeight: FontWeight.w400,
