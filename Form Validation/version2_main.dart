@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-// r'^[\w-\.]+@([\w-]+\.)+[\w]{2,4}$'
 void main() {
   runApp(MyApp());
 }
@@ -85,6 +84,13 @@ class _LoginPageState extends State<LoginPage> {
                             color: Colors.transparent,
                           ),
                         ),
+                        errorBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(10.0),
+                          borderSide: BorderSide(
+                            width: 1,
+                            color: const Color(0xFFFF0000),
+                          ),
+                        ),
                       ),
                     ),
                   ),
@@ -122,6 +128,13 @@ class _LoginPageState extends State<LoginPage> {
                           borderSide: BorderSide(
                             width: 0.0,
                             color: Colors.transparent,
+                          ),
+                        ),
+                        errorBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(10.0),
+                          borderSide: BorderSide(
+                            width: 1,
+                            color: const Color(0xFFFF0000),
                           ),
                         ),
                       ),
